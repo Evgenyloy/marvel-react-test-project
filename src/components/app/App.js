@@ -9,11 +9,6 @@ const ComicsPage = lazy(() => import('../pages/ComicsPage'));
 const SingleComicPage = lazy(() => import('../pages/SingleComicPage'));
 
 const App = () => {
-  //тест
-  fetch('https://6yps3h-8080.csb.app/posts')
-    .then((response) => response.json())
-    .then((json) => console.log(json));
-
   return (
     <Router>
       <div className="app">
